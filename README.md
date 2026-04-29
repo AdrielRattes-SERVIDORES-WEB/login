@@ -1,5 +1,3 @@
-# InstaDelivery Auth System
-
 Sistema de autenticação multi-fator construído com CodeIgniter 4.
 
 ## Stack
@@ -85,3 +83,20 @@ php spark migrate
 | `GET/POST /setup/webauthn` | Configurar Touch ID |
 | `GET /dashboard` | Area autenticada |
 | `GET /logout` | Logout |
+
+## Infraestrutura                                                                                                     
+  - **VPS:** Oracle Cloud (Ubuntu 22.04)                                                                                  - **Servidor web:** Nginx 1.18
+  - **PHP:** 8.2 via PHP-FPM
+  - **SSL:** Let's Encrypt (Certbot) — HTTPS obrigatório
+  - **Domínio:** instadelivery.shop
+  - **Banco:** MySQL 8.0 local na VPS
+
+  ## Requisitos para rodar em produção
+
+  - VPS Linux com Nginx + PHP 8.2-FPM
+  - Certbot instalado para gerar certificado SSL (`sudo certbot --nginx`)
+  - SSL obrigatório — WebAuthn só funciona em HTTPS
+  - Domínio apontando para o IP da VPS
+  - Composer instalado
+  - MySQL configurado com banco e usuário dedicado
+  - Conta Gmail com App Password habilitada para envio de e-mails
