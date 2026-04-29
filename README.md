@@ -100,3 +100,7 @@ php spark migrate
   - Composer instalado
   - MySQL configurado com banco e usuário dedicado
   - Conta Gmail com App Password habilitada para envio de e-mails
+  <img width="637" height="208" alt="Screenshot_5" src="https://github.com/user-attachments/assets/0132869f-e2d7-44de-be23-63cec78c3960" />
+<img width="946" height="254" alt="Screenshot_3" src="https://github.com/user-attachments/assets/501ed89a-2371-459e-b4bd-d14f0055204f" />
+<img width="720" height="93" alt="Screenshot_4" src="https://github.com/user-attachments/assets/bbe2b119-7cc3-4490-8313-b8e6f77faf62" />
+
